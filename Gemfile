@@ -18,6 +18,9 @@ gem 'turbolinks', '~> 5'
 gem 'dotenv-rails', groups: [:development, :test]
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+# Cloudinary service
+gem 'cloudinary', '~> 1.16.0'
+# LeWagon pre-setup
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
