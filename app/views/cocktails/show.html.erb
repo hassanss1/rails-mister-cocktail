@@ -29,5 +29,11 @@
       </div>
     </div>
   </div>
+  <div class="container">
+    <% @cocktail.reviews.each do |review| %>
+      <%= review.content %>
+      <%= review.rating %>
+    <% end %>
+  </div>
 </div>
 
